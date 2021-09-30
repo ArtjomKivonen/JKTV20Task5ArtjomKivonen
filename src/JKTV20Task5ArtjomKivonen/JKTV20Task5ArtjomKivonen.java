@@ -30,10 +30,12 @@ public class JKTV20Task5ArtjomKivonen {
         jaggedArray[3]=new int[8];
         jaggedArray[4]=new int[9];
         System.out.println("Jagged array");
-        for(int i = 0; i<jaggedArray.length; i++) {
-            jaggedArray[i][]=random.nextInt(100-50);
-            System.out.println(Arrays.toString(jaggedArray[i]));
+        for (int i=0; i<jaggedArray.length; i++) {
+            for (int j = 0; j<jaggedArray[i].length; j++) {
+                jaggedArray[i][j] = random.nextInt(100-50);
+            }
         }
+        System.out.println(Array.toString(jaggedArray[i][j]));
     }
 
 
