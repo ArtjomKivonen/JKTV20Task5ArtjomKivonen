@@ -5,7 +5,6 @@
  */
 package JKTV20Task5ArtjomKivonen;
 
-import java.util.Arrays;
 import java.util.Random;
 
 /**
